@@ -1,0 +1,285 @@
+@import "text.css";
+@import "media.css";
+
+html {
+    margin: 40px;
+    height: auto;
+}
+
+.main__header {
+    padding: 20px 50px;
+    position: relative;
+}
+
+.main {
+    height: 100%;
+}
+
+.mainInfo {
+    height: 80vh;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+.container {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 20px;
+}
+
+.nav {
+    font-family: "GoogleSans", sans-serif;
+    font-weight: 600;
+    font-size: 100%;
+    color: black;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.nav__item {
+    margin: 0 10px;
+    text-align: center;
+}
+
+.nav__item--sign_up {
+    border: 2px solid #000000;
+    color: black;
+    border-radius: 5px;
+    width: 212px;
+    height: 40px;
+    align-content: center;
+    text-align: center;
+}
+
+.btn__seeMore {
+    font-family: "GoogleSans", sans-serif;
+    float: left;
+    text-align: center;
+    background-color: #F1A501;
+    border-radius: 20px;
+    border-spacing: 10px;
+    width: 170px;
+    height: 60px;
+    margin: 10px 0 0 30%;
+}
+
+.services {
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    margin: 50px 0 180px;
+}
+
+.service__container {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.service {
+    width: 17%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2%;
+}
+
+#serviceFlight {
+    border-radius: 50px;
+    box-shadow: 0px 20px 30px 5px rgba(0, 0, 0, 0.05);
+    background-color: white;
+}
+
+.topsellers {
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    margin: 50px 0;
+    display: inline-block;
+    position: relative;
+}
+
+.topsellers__container {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.topseller {
+    width: 25%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2%;
+    border-radius: 50px;
+    box-shadow: 0px 30px 10px 15px rgba(0, 0, 0, 0.05);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topseller__Rome {
+    background-image: url("../assets/images/Rectangle 1.png");
+}
+
+.topseller__UK {
+    background-image: url("../assets/images/Rectangle 2.jpg");
+}
+
+.topseller__allEurope {
+    background-image: url("../assets/images/Rectangle 3.png");
+}
+
+.topseller__description {
+    height: 30%;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    bottom: -43%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex;
+    align-content: stretch;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.threeSteps {
+    height: 60vh;
+    text-align: left;
+    margin: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.threeSteps__text, .threeSteps__vidget {
+    width: 50%;
+    height: 100%;
+}
+
+.threeSteps__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.threeSteps__vidget {
+    object-fit: cover;
+}
+
+.step {
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+}
+
+.feedback {
+    height: 60vh;
+    width: 80%;
+    text-align: left;
+    margin: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.feedback__header {
+    width: 40%;
+    height: 60%;
+}
+
+.feedback__text {
+    width: 80%;
+    height: 60%;
+    margin-left: 10%;
+}
+
+.feedback__card {
+    width: 60%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2%;
+    border-radius: 50px;
+    box-shadow: 0px 20px 30px 5px rgba(0, 0, 0, 0.05);
+    background-color: white;
+}
+
+.feedback__photo {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    position: relative;
+}
+
+.feedback__photo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.swiper {
+    width: 40%;
+    height: 70%;
+    position: relative;
+}
+
+.swiper-wrapper {
+    margin: 5%;
+}
+
+.swiper-button-prev, .swiper-button-next, .swiper-pagination {
+    --swiper-theme-color: black;
+}
+
+.footer__block {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+
+.footer__block h1 {
+    font-family: "GoogleSans", sans-serif;
+    font-weight: 800;
+    font-size: 150%;
+    color: black;
+}
+
+.footer__block h2, h3, h4 {
+    font-family: "GoogleSans", sans-serif;
+    font-weight: 600;
+    font-size: 100%;
+    color: black;
+    margin: 0;
+}
+
+.Jadoo, .footer__company, .footer__contacts, .footer__more {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+
+.Jadoo__pic {
+    margin-bottom: 5%;
+}
+
+.footer__container {
+    margin-bottom: 5% ;
+}

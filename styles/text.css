@@ -1,0 +1,184 @@
+@font-face {
+    font-family: "AvrileSerif";
+    src: url("../styles/fonts/Jost-Regular.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GoogleSans";
+    src: url("../styles/fonts/Jost-Regular.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.mainInfo__text h1 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    white-space: nowrap;
+    font-size: 150%;
+    color: #DF6951;
+}
+
+.mainInfo__text h2 {
+    font-family: "AvrileSerif", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 350%;
+    color: #181E4B;
+    line-height: 100%;
+}
+
+.mainInfo__text h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 150%;
+    font-weight: 100;
+    color: #5E6282;
+}
+
+.mainInfo__text h1, h2, h3 {
+    max-width: 80%;
+    height: auto;
+    text-align: left;
+    margin: 0 0 0 30%;
+}
+
+.mainInfo__text {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+    height: 80%;
+    position: relative;
+    margin: 3% 0 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.btn__text {
+    color: white !important;
+    display: inline-block;
+    margin: 10%
+}
+
+.services__header {
+    font-family: "AvrileSerif", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: #14183E;
+    text-align: center;
+}
+
+.service__header {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 130%;
+    color: #1E1D4C;
+    text-wrap: nowrap;
+}
+
+.service__description {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 80%;
+    margin-top: 3%;
+    color: #5E6282;
+    font-size: 120%;
+}
+
+.miniheader {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #5E6282;
+    margin: 2%;
+    position: relative;
+}
+
+.header {
+    font-family: "AvrileSerif", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: 50px;
+    color: #1E1D4C;
+    text-wrap: nowrap;
+    position: relative;
+    margin: 0 0 20px;
+}
+
+.topseller__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topseller__name, .topseller__price {
+    width: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    margin: 4% 10% 2%;
+    font-weight: 500;
+    font-size: 130%;
+}
+
+.topseller__name {
+    text-align: left;
+}
+
+.topseller__price {
+    text-align: right;
+    text-wrap: nowrap;
+}
+
+.topseller__duration {
+    text-align: left;
+    width: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    margin: 0 10%;
+    font-weight: 500;
+    font-size: 130%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.topseller__duration img{
+    margin: 5%;
+}
+
+.threeSteps__miniheader {
+    margin: 0 0 2% 8%;
+}
+
+.threeSteps__header {
+    text-wrap: wrap;
+    line-height: 100%;
+    margin: 0 0 0 8%;
+}
+
+.step__text h1, .feedback__text h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    text-align: left;
+    font-weight: 600;
+    font-size: 130%;
+    margin: 0;
+    color: #5E6282;
+}
+
+.step__text h2, .feedback__text h1, h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    text-align: left;
+    font-weight: 500;
+    font-size: 130%;
+    margin: 0;
+    color: #5E6282;
+}
+
