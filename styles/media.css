@@ -1,62 +1,24 @@
-.decore {
-    background-image: url("../assets/images/Decore.png");
-    right: 0px;
-    top: 0px;
-    max-width: 504px;
-    max-height: 524px;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-}
 
-.mainInfo__pic {
-    float: right;
-    width: 50%;
-    box-sizing: border-box;
-    padding: 20px;
-    height: auto;
-    max-height: 100%;
-    max-width: 100%;
-    position: relative;
-    object-fit: fill;
-    margin: 3% 0 5%;
-}
+@media (max-width: 1200px) {
+    .container {
+        height: 45vh;
+        width: 100vw;
+        position: flex;
+    }
 
-.mainInfo__pic img {
-    display: block;
-    height: 100%;
-    max-width: 70%;
-}
+    .nav{
+        flex-shrink: 1;
+    }
 
-.service__pic {
-    display: flex;
-    margin: 10%;
-    width: 50%;
-    height: 25%;
-    align-items: flex-end;
-    justify-content: center;
-}
+    .service {
+        height: 10vw;
 
-#decor2 {
-    position: absolute;
-    top: -10%;
-    right: 10%;
-}
+    }
 
-#decor3 {
-    position: relative;
-    z-index: -10;
-    left: -50%;
-    top: 15%;
-}
-
-#decor4 {
-    position: relative;
-    z-index: -10;
-    top: 40%;
-    left: -4.5%;
-}
-
-.step__pic {
-    margin: 3%;
+    .picContainer {
+        max-width: 50px;
+        max-height: 50px;
+        min-width: 10px;
+        min-height: 10px;
+    }
 }
